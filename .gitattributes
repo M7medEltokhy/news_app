@@ -1,0 +1,7 @@
+# Ignore native Android and iOS code from language stats
+android/** linguist-vendored
+ios/** linguist-vendored
+
+# Ignore build artifacts
+build/** linguist-vendored
+.dart_tool/** linguist-vendored
