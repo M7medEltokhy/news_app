@@ -6,3 +6,11 @@ build/** linguist-vendored
 .vscode/** linguist-vendored
 .idea/** linguist-vendored
 
+*.dart linguist-detectable=true
+*.dart linguist-language=Dart
+*.java linguist-detectable=false
+*.kt linguist-detectable=false
+*.cpp linguist-detectable=false
+*.h linguist-detectable=false
+*.mm linguist-detectable=false
+*.m linguist-detectable=false
