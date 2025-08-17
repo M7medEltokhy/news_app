@@ -1,7 +1,8 @@
-# Ignore native Android and iOS code from language stats
-android/** linguist-vendored
-ios/** linguist-vendored
-
-# Ignore build artifacts
+# Exclude generated and build files only
 build/** linguist-vendored
 .dart_tool/** linguist-vendored
+
+# IDE configs
+.vscode/** linguist-vendored
+.idea/** linguist-vendored
+
