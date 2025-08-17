@@ -1,16 +1,19 @@
-# Exclude generated and build files only
+# Ignore build and IDE files
 build/** linguist-vendored
 .dart_tool/** linguist-vendored
-
-# IDE configs
 .vscode/** linguist-vendored
 .idea/** linguist-vendored
 
+# Detect Dart only
 *.dart linguist-detectable=true
 *.dart linguist-language=Dart
+
+# Hide others
 *.java linguist-detectable=false
 *.kt linguist-detectable=false
 *.cpp linguist-detectable=false
 *.h linguist-detectable=false
 *.mm linguist-detectable=false
 *.m linguist-detectable=false
+*.cmake linguist-detectable=false
+CMakeLists.txt linguist-detectable=false
